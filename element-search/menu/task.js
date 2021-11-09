@@ -3,7 +3,7 @@ const menu = document.getElementsByClassName('menu__link');
 for (let i = 0; i < menu.length; i++) {
     menu[i].onclick = function() {
 
-        const mainMenu = this.closest('ul');
+
         const subMenu = this.parentElement.querySelector('.menu_sub');
 
         if (!subMenu) {
