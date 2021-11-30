@@ -20,4 +20,6 @@ for (let link of links) {
 function rename(event) {
     event.preventDefault();
     button.textContent = event.target.textContent;
+    list.className = 'dropdown__list';
+
 }
